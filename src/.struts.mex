@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="com.manage.action" location="10,10" size="280,140">
+    <action name="login" location="69,51" size="150,83">
+      <result name="user">
+        <resourceEdge source="user" routing="0" target="perinfo.jsp" />
+      </result>
+      <result name="admin">
+        <resourceEdge source="admin" routing="0" target="adminsuccess.jsp" />
+      </result>
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="index.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.jsp" path="/index.jsp" location="354,48" size="150,55" />
+  <webResource name="perinfo.jsp" path="/perinfo.jsp" location="350,200" size="150,55" />
+  <webResource name="adminsuccess.jsp" path="/adminsuccess.jsp" location="50,350" size="150,55" />
+</Struts2Diagram>
+
